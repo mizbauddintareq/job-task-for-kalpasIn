@@ -1,0 +1,33 @@
+.left {
+  left: -190px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+label {
+  margin-bottom: 10px;
+}
+.modal-header {
+  border-bottom: 0;
+  padding: 10px;
+}
+.feedback-modal,
+.form-card,
+.feedback-modal-header {
+  background-color: #d6e0e9;
+}
+.feedback-btn {
+  background-color: #78f0ba;
+
+  color: black;
+  padding: 10px 0;
+  border-radius: 7px;
+}
+.modal-feedback-btn {
+  background-color: #f0a6a8;
+
+  color: black;
+  padding: 10px 0;
+  border-radius: 7px;
+}

@@ -1,0 +1,40 @@
+.pageNumber {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pageNumber li {
+  padding: 2px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+li.active {
+  background-color: white;
+  color: black;
+}
+button {
+  border: none;
+}
+
+li button:hover {
+  background-color: white;
+  color: black;
+}
+li button:focus {
+  outline: none;
+}
+.list-btn {
+  background-color: white;
+  color: red;
+  border: none;
+  border-radius: 30px;
+}
+.del-card-btn {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: white;
+  color: red;
+  border: none;
+}

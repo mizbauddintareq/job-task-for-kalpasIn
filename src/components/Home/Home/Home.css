@@ -1,0 +1,20 @@
+body {
+  background-color: #d6e0e9 !important;
+}
+.fixed-section {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.toggle-btn {
+  background-color: rgb(203, 207, 211);
+  border-radius: 7px;
+}
+.toggle-btn button {
+  color: #919699;
+}
+
+.toggle-btn button.active {
+  background-color: #78f0ba;
+  padding: 5px 20px;
+}
