@@ -18,13 +18,14 @@ const SinglePost = (props) => {
               data-bs-target="#exampleModal"
             >
               <div className="card mb-3 shadow-lg p-2 bg-body rounded-4 border-0">
-                <div className="row g-0 d-flex align-items-center">
-                  <div className="col-md-1">
+                <div className="row g-0 d-flex align-items-center justify-content-start">
+                  <div className="col-md-1 mx-2">
                     <Image
                       roundedCircle
                       src="https://i.ibb.co/F5GzrM5/pexels-thorsten-technoman-338515.jpg"
                       alt="user image"
                       style={{ width: "70px", height: "70px" }}
+                      className="img-fluid"
                     />
                   </div>
                   <div className="col-md-10">

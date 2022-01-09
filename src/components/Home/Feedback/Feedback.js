@@ -73,7 +73,7 @@ const Feedback = () => {
         We're Listening
       </button>
       <div
-        className="modal fade left"
+        className="modal fade w-75"
         id="exampleModalLong"
         data-bs-backdrop="static"
         data-bs-keyboard="false"

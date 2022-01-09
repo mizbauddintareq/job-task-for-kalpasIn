@@ -11,6 +11,7 @@ const UserInfo = () => {
             src="https://i.ibb.co/xLNQLBV/pexels-daniel-xavier-1212984.jpg"
             alt="user image"
             style={{ width: "70px" }}
+            className="img-fluid"
           />
         </div>
         <div className="col-md-9">
